@@ -289,3 +289,18 @@ body {
 }
 
 /* REACH OUT STYLES END */
+
+/* homepage hero */
+
+.hero {
+  margin: 20px;
+  font-size: 20px;
+  background-color: white;
+  color: blue;
+}
+
+/* these two colors will override the ones above in .hero */
+.hero-secondary {
+  background-color: black;
+  color: red;
+}
