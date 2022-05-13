@@ -131,12 +131,6 @@ body {
     text-align: center;
   }
 
-  .intro h2 {
- 
-  }
-
-  .intro h2 {
- 
   }
 
   .intro p {
@@ -296,7 +290,7 @@ body {
   margin: 20px;
   font-size: 20px;
   background-color: white;
-  color: blue;
+  color: #39a6b2;
 }
 
 /* these two colors will override the ones above in .hero */
