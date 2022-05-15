@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -44,13 +50,12 @@
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color: #fce138;
   padding: 20px;
   color: #024e76;
   width: 40%;
   margin: 3.5%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  background-color: #fce138;
+  background-color: rgba(255, 225, 56, 0.8);
   border-radius: 15px;
 }
 
@@ -596,10 +601,4 @@
 .checkbox-wrapper input:checked + label::after, 
 .radio-wrapper input:checked + label::after {
   content: "";
-}
-
-:root {
-  --primary-color: #fce138;
-  --secondary-color: #024e76;
-  --tertiary-color: #39a6b2;
 }
